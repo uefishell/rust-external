@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{8eba64e4-3330-43f9-8c49-716dd9605825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{2792a1fe-04f5-4de7-8d41-3f602de83852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{3e3c1c15-e171-4970-8acc-851ef05645e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\string">
+      <UniqueIdentifier>{b2b90207-6ebb-4513-a89d-5090a203567f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\driver">
+      <UniqueIdentifier>{70e9513f-ca43-48c0-8c60-dffb0e174e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{e058d572-b653-47bc-a571-8e39bcd8db31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{61e8baf2-30ca-4967-8259-b77fcd0baee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\classes">
+      <UniqueIdentifier>{0945996d-4129-4926-b0f6-3a5de58951ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features">
+      <UniqueIdentifier>{537332fc-125c-4282-9725-9b2db755ee97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\features\entityloop">
+      <UniqueIdentifier>{b374b0c9-6471-4646-b748-608cf72836bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\systems">
+      <UniqueIdentifier>{d03f5d9b-a8e1-4744-9934-c60da846da88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="config.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.hpp">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>cheat\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>cheat\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems.hpp">
+      <Filter>cheat\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.hpp">
+      <Filter>cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.hpp">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.hpp">
+      <Filter>cheat\features\entityloop</Filter>
+    </ClInclude>
+    <ClInclude Include="archivex.hpp">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="localplayer.hpp">
+      <Filter>cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="c_base_player.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_player_model.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_player_input.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_base_movement.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_base_collision.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_model_state.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_base_mountable.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_player_tick.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_player_eyes.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_player_inventory.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_capsule_collider.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_player_belt.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_rigid_body.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_base_entity.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_base_combat_entity.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_model.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_base_networkable.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_held_item.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_projectile.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_transform.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="estr.hpp">
+      <Filter>driver\string</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.hpp">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="c_recoil_properties.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_camera.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_convar_admin.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_convar_client.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_admin.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_convar_graphics.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_object.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_object_class.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_item_definition.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_tod_sky.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_tod_components.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_tod_scattering.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_skinset_collection.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_skin_set.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_magazine.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_ammo_definition.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_item_projectile_mod.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_time.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_input_state.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_input_message.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_view_model.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_weapon_view_model.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_weapon_bob.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_weapon_sway.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_weapon_lower.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_weapon_punch.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_item_container.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_item_list.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_item.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_skinnable.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_groups.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_skin_type.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="window.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.hpp">
+      <Filter>cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="entityloop.hpp">
+      <Filter>cheat\features\entityloop</Filter>
+    </ClInclude>
+    <ClInclude Include="c_unity.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="c_hit_test.h">
+      <Filter>cheat\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include.hpp">
+      <Filter>driver\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>driver\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hpp">
+      <Filter>driver\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="function.hpp">
+      <Filter>driver\driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini">
+      <Filter>imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
